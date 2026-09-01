@@ -1,0 +1,12 @@
+# Exclude build artifacts
+# Normalize line endings
+# Project-specific overrides
+*.htm linguist-vendored
+src/**/*.ts linguist-detectable
+* text=auto
+src/*.ts linguist-detectable
+public/index.html linguist-vendored
+*.yaml linguist-detectable=false
+*.jpg binary
+vendor/* linguist-vendored
+# eof 63ba4d59
