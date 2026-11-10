@@ -1,0 +1,9 @@
+*.tgz
+npm-debug.log*
+coverage/
+dist/
+.pnpm-store/
+build/
+*.log
+.next/
+yarn-error.log*
